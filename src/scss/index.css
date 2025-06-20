@@ -11,7 +11,9 @@ body {
 }
 
 a {
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   color: rgb(155, 224, 159);
   text-decoration: underline;
   cursor: pointer;
@@ -46,7 +48,8 @@ a:hover {
 
 .link-icon {
   float: left;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 40px;
   height: 40px;
   margin-right: 10px;
@@ -63,9 +66,6 @@ a:hover {
 .hero {
   text-align: center;
   flex-grow: 1;
-}
-.hero h1 {
-  margin-bottom: 100px;
 }
 
 .falling-note {
@@ -84,4 +84,4 @@ a:hover {
     opacity: 0;
     transform: translateY(500%);
   }
-}
+}/*# sourceMappingURL=index.css.map */
