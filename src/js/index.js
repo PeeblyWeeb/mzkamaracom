@@ -8,7 +8,7 @@ function newMouseNote(x, y) {
   note_element.style.top = `${y}px`;
   note_element.style.left = `${x}px`;
   //   note_element.style.backgroundColor = "white";
-  note_element.src = `/static/assets/note${noteVariation}.png`;
+  note_element.src = `/src/assets/note${noteVariation}.png`;
   note_element.style.width = "10px";
   note_element.style.height = "10px";
   note_element.classList.add("falling-note");
